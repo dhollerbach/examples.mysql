@@ -5,8 +5,8 @@ SET @db1 = 'database.tables';
 
 # Creates user and password
 SET @createuser = CONCAT('CREATE USER "',@user,'" IDENTIFIED BY "',@pass,'" ');
-PREPARE stmt FROM @createuser; 
-EXECUTE stmt; 
+PREPARE stmt FROM @createuser;
+EXECUTE stmt;
 DEALLOCATE PREPARE stmt;
 
 # Grants privileges for db1
