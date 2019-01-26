@@ -9,3 +9,8 @@
 * **-p** - requires password
 * **-e** - outputs to a file
   * Ex: mysql -h HOSTNAME -u USER -p DATABASE "<query>" > output.txt
+
+## Basic Commands
+* **SHOW WARNINGS** - can be used after a warning is encountered
+* **FLUSH PRIVILEGES** - reimplements all privileges
+* **SHOW PROCESSLIST** - shows all querys and processes currently running
